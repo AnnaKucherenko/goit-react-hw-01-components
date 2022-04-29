@@ -3,6 +3,8 @@ import user from './components/Profile/user.json';
 import Section from 'components/Statistics/Section';
 import StatisticsList from 'components/Statistics/StatisticsList';
 import stats from './components/Statistics/statistics.json';
+import FriendList from './components/FriendList/FriendList';
+import friends from './components/FriendList/Friends.json';
 
 
 export default function App() {
@@ -21,9 +23,11 @@ export default function App() {
       <Section title="Upload stats">
           <StatisticsList items={stats} />
       </Section>
+
+      <FriendList friends={friends} />
       
     </div>
     
   ); 
-  
+
 };
