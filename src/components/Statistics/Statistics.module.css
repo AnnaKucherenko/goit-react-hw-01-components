@@ -1,0 +1,41 @@
+.sectionStatistics{
+    background-color: rgb(228, 222, 222);
+    text-align: center;
+    width: 275px;
+    height: 130px;
+    border-radius: 2px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.title{
+    text-transform: uppercase;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin: 0;
+}
+
+.list{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    
+    padding-left: 0;
+    color: white;
+    
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    width: 55px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.label{
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
