@@ -2,9 +2,8 @@
     background-color: rgb(228, 222, 222);
     text-align: center;
     width: 275px;
-    height: 345px;
+    height: 325px;
     border-radius: 6px;
-    margin: 0 auto;
     display: flex;
     flex-direction: column;
 }
@@ -37,6 +36,8 @@ padding-bottom: 40px;
     display: flex;
     padding: 0px;
     margin: 0 auto;
+    border-radius: 10px;
+    
 }
 
 .statsItem{
@@ -45,6 +46,15 @@ padding-bottom: 40px;
     padding: 10px 27px;
     background-color: rgb(163, 155, 155);
     border-color: rgb(63, 62, 62);
+    
+}
+
+.statsItem:nth-child(1){
+    border-bottom-left-radius: 6px;
+}
+
+.statsItem:nth-child(3) {
+    border-bottom-right-radius: 6px;
 }
 
 .label{
